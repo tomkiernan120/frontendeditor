@@ -1,0 +1,29 @@
+.block{
+  box-sizing: content-box;
+  padding: 5px 10px;
+  position: relative;
+}
+.bottom-options{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  /* border-bottom: 1px solid rgba( 0, 0, 0, 0.3 ); */
+}
+
+.bottom-options a{
+  background: #fff;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: -22px;
+  cursor: pointer;
+  transform: translateX(-50%);
+  z-index: 99999999;
+  transition: opacity 1s ease-in;
+  cursor: pointer;
+}
+
+
+.bottom-options a:hover{
+  opacity: 1;
+}
