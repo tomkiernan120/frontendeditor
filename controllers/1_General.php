@@ -58,15 +58,15 @@ class General {
       $this->config['partials'][ "block" ] = "";
       $this->config['partials'][ "blockend" ] = "";
 
-      $this->config['partials'][ "block" ] = "<div class=\"block\">"; 
-      $this->config['partials'][ "blockimage" ] = "<div class=\"block image\">";
-      $this->config['partials'][ "blockimage-large" ] = "<div class=\"block image-large\">";
-      $this->config['partials'][ "blockend" ] = "</div>";
-      $this->config['partials'][ "blockimage-blockend" ] = "</div>";
-      $this->config['partials'][ "blockimage-large-blockend" ] = "</div>";
+      $this->config['partials'][ "block" ] = "<div class=\"blockwrap\"><div class=\"side-options\"><div class=\"move-up\"><a><i class=\"fas fa-chevron-up\"></i></a></div><div class=\"move-drag\"><a><i class=\"fas fa-ellipsis-h\"></i></a></div><div class=\"move-down\"><a><i class=\"fas fa-chevron-down\"></i></a></div></div><div class=\"block\">"; 
+      $this->config['partials'][ "blockimage" ] = "<div class=\"blockwrap\"><div class=\"block image\">";
+      $this->config['partials'][ "blockimage-large" ] = "<div class=\"blockwrap\"><div class=\"block image-large\">";
+      $this->config['partials'][ "blockend" ] = "</div></div>";
+      $this->config['partials'][ "blockimage-blockend" ] = "</div></div>";
+      $this->config['partials'][ "blockimage-large-blockend" ] = "</div></div>";
 
       if( $_GET["admin"] ) {
-        $this->config["partials"]["blockend"] = "</div><div class=\"bottom-options\"><a><i class=\"far fa-times-circle\"></i></a></div>";
+        $this->config["partials"]["blockend"] = "</div><div class=\"bottom-options\"><a><i class=\"far fa-times-circle\"></i></a></div></div>";
       }
 
 
