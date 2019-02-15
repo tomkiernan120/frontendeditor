@@ -1,0 +1,30 @@
+{
+  "name": "frontendeditor",
+  "version": "1.0.0",
+  "description": "frontendeditor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkiernan120/frontendeditor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomkiernan120/frontendeditor/issues"
+  },
+  "homepage": "https://github.com/tomkiernan120/frontendeditor#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mustache": "^3.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

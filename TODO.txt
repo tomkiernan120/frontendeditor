@@ -1,0 +1,6 @@
+implement consistent API
+
+load external page with editable blogs
+
+create a consistent bunch of methods/events to push updates to content
+
